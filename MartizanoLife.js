@@ -14,13 +14,22 @@ console.log("IT21C");
 
 // console.log("Total Hours of Sleep: " + sum + "\nTotal Hours of Study: " + diff + "\n");
 
-let studyhours = 5;
+// let studyhours = 5;
 
-if (studyhours > 5){
-    console.log("Great! You studied enough today.");
-}else {
-    console.log("You need to study more.");
+// if (studyhours > 5){
+//     console.log("Great! You studied enough today.");
+// }else {
+//     console.log("You need to study more.");
+
+// }
+
+    let subjects = ["Web System", "Event-Driven", "OOP", "Data Structure", "Networking"];
+    console.log("List of my subject this sem:");
+    
+for(let i = 0; i < subjects.length; i++){
+    console.log(subjects[i]);
 
 }
+
 
 
