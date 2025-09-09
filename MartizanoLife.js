@@ -23,13 +23,17 @@ console.log("IT21C");
 
 // }
 
-    let subjects = ["Web System", "Event-Driven", "OOP", "Data Structure", "Networking"];
-    console.log("List of my subject this sem:");
+//     let subjects = ["Web System", "Event-Driven", "OOP", "Data Structure", "Networking"];
+//     console.log("List of my subject this sem:");
     
-for(let i = 0; i < subjects.length; i++){
-    console.log(subjects[i]);
+// for(let i = 0; i < subjects.length; i++){
+//     console.log(subjects[i]);
 
+// }
+
+function StudentSummary(){
+    return "My name is " + student + "a" + yearlevel + "from" + course + ".";
 }
-
+console.log(StudentSummary());
 
 
