@@ -6,14 +6,21 @@ console.log("IT21C");
 
 // console.log("Name: " +student+ "\nCourse: " +course+ "\nYear Level: " +yearlevel+ "\n" );
 
-let hours1 = 5;
-let hours2 = 3;
+// let hours1 = 5;
+// let hours2 = 3;
 
-let sum = hours1+hours2;
-let diff = hours1-hours2;
+// let sum = hours1+hours2;
+// let diff = hours1-hours2;
 
-console.log("Total Hours of Sleep: " + sum + "\nTotal Hours of Study: " + diff + "\n");
+// console.log("Total Hours of Sleep: " + sum + "\nTotal Hours of Study: " + diff + "\n");
 
+let studyhours = 5;
 
+if (studyhours > 5){
+    console.log("Great! You studied enough today.");
+}else {
+    console.log("You need to study more.");
+
+}
 
 
